@@ -1,0 +1,236 @@
+header {
+  min-height: 50px;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid #ccc;
+  background:#000;
+  z-index: 2;
+}
+
+#centraltopo{
+	width:auto;
+	margin-top:25px;
+	font-size:20px;
+	color:#fff;
+}
+#buscar {
+	margin-top:35px;
+	width: 0 auto;
+	max-width:450px;
+}
+.navbar ul {
+	alignment-baseline:central;
+	position:relative;
+	width:auto;
+	background: rgb(80,122,215);
+	font-style:oblique;
+}
+#menu {
+	margin: 0 auto;
+}
+#itens {
+	width: auto;
+	position: relative;
+	background: #5E9BF7;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+#conta {
+	height: 50px;
+}
+.rodape {
+	padding:50px;
+	position:relative;
+	bottom:0;
+   width:auto;
+   height:auto;   /* Mesma Altura do Rodapé */
+   background:#000; /*#337ab7*/
+}
+#aba{
+	padding: 10px;
+	backgroung-color:#337ab7;
+}
+
+/*#menudropdown
+{
+	min-width: 5px;
+	padding:20px;
+	text-align:center; 
+	font-size:18px;
+	}*/
+#conteudo{
+	padding:10px;
+	border: 1px #CCC solid;
+	color:#000;
+}
+
+/*PALAVRAS DO SLIDE DO KRL
+
+    .banner .carousel-caption h1{ opacity: 0;}
+    .banner .carousel-caption h2{ opacity: 0;}
+    .banner .carousel-caption .btn{opacity: 0;}
+    .banner .carousel-inner:hover img{-webkit-filter: blur(5px); transition:all 5s; }
+    .banner .carousel-inner:hover h1{ transition:all 1s; opacity: 0.9 !important;  }
+    .banner .carousel-inner:hover h2{ transition:all 1s; opacity: 0.9 !important;  }
+    .banner .carousel-inner:hover .btn{ transition:all 1s; opacity: 0.9 !important;  }
+
+PALAVRAS DO SLIDE DO KRL*/
+
+/*THUMBNAILS*/
+    .featured-block{overflow: hidden; padding-bottom:55px; padding-top:10px;}
+.featured-block .caption{padding: 25px 15px;}
+.featured-block .caption h1{font-size: 18px; line-height: 24px;color: #337ab7; text-transform: uppercase;font-family: Arial;  padding-bottom: 10px; letter-spacing: 1px;}
+.featured-block .caption p{font-size: 14px; line-height: 24px; color: #888888;font-family: Arial;}
+.featured-block .caption .btn{color: #fff; background: #337ab7; font-size: 12px; font-family: Arial; border-radius: 30px; text-transform: uppercase; line-height: 13px;}
+.featured-block .caption .btn:hover{color: #fff; background: #454855; transition:all 1s;}.featured-block .block{}
+.featured-block .block .thumbnail{box-shadow: 0 3px 3px 0 #e0e0e0;}
+/*THUMBNAILS*/
+
+/*blur no slide */
+    .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+    .banner .carousel-inner:hover img{-webkit-filter: blur(5px); transition:all 2s; }
+    .banner .carousel-inner:hover h1{ transition:all 1s; opacity: 0.9 !important;  }
+    .banner .carousel-inner:hover h2{ transition:all 1s; opacity: 0.9 !important;  }
+    .banner .carousel-inner:hover .btn{ transition:all 1s; opacity: 0.9 !important;  }
+.banner .carousel-inner:hover h3{    color: #000;}
+
+/*Rodape do krl*/
+.footer-wrapper{background: #000;}
+.site-content{padding: 12px 0; overflow: hidden;}
+.site-content .block h1{font-size: 18px; line-height: 20px; color: #fff; text-transform: uppercase; font-family: "Arial"; padding-bottom: 10px;}
+.site-content .block ul{margin: 0; padding: 0;}
+.site-content .block ul li{list-style: none; line-height: 28px;}
+.site-content .block ul li a{font-size: 14px; color: #cbcbcb;font-family: Arial; border-bottom: 1px solid #83858b;} 
+.site-content .block ul li a:hover{text-decoration: none; color: #fff;}
+.site-content .block .input-group {margin-top: 10px;}
+.site-content .block .input-group-btn .btn{border-radius: 0 20px 20px 0; background: #5E9BF7; color: #fff; font-family: Arial; text-transform: uppercase; border: none; padding: 6px 5px; font-size: 12px; line-height: 23px;}
+.site-content .block .input-group-btn .btn:hover{background: #454855; color: #5E9BF7; transition:all 1s;}
+.input-group .form-control {border-radius: 19px;background: #454855; border: none;}
+.site-content .block .social li a{text-decoration: none; border-bottom: 0;}
+.site-content .block .social{margin-top: 8px;}
+.social [class^="fw-icon-"]{font-size: 18px; width: 40px; height: 40px; 
+                            line-height: 14px; padding:14px; background: #5E9BF7; color: #fff; border-radius: 50%; display: inline-block; margin-right: 5px;}
+.social [class^="fw-icon-"]:hover{background: #454855; color: #5E9BF7; transition:all 1s;}
+.social li{display: inline-block;}
+
+.copy-rights{color: #34b091;font-family: Arial; background: #454855; padding: 35px 0;}
+.copy-rights a{color: #5E9BF7;font-size: 14px; font-family: Arial; text-decoration: none;}
+.copy-rights a:hover{color: #fff;}
+
+.btn-stack-overflow {
+  @include btn-twitter(#55ACEE);
+}
+
+/* PAGINA CAD */
+#preto {
+	color: #666;
+	font-family: "Arial", Gadget, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	width: 75%;
+}
+#formcad {
+	color:#575757;
+}
+.register-form form.custom-form{
+  box-sizing:border-box;
+  background-color:#ffffff;
+  box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  font:bold 14px sans-serif;
+  text-align:center;
+  color:#333;
+}
+
+@media (max-width:400px) {
+  .register-form form.custom-form{
+    padding:5px 10px;
+  }
+}
+
+.register-form .custom-form h1{
+	display: inline-block;
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+	border-bottom: 2px solid rgb(108, 174, 224);
+}
+
+.register-form .custom-form .form-group{
+  margin-bottom:25px;
+}
+
+.register-form .custom-form .label-column{
+  text-align:right;
+  color:#5F5F5F;
+}
+
+@media (max-width:768px) {
+  .register-form .custom-form .label-column{
+    text-align:left;
+  }
+}
+
+.register-form .custom-form .input-column{
+  color:#5f5f5f;
+  text-align:right;
+}
+
+.register-form .custom-form .input-column input{
+  color:#5f5f5f;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  border:1px solid #dbdbdb;
+  border-radius:2px;
+  height:42px;
+}
+
+.register-form .custom-form .dropdown .dropdown-toggle{
+  background:#fff;
+  border:1px solid #dbdbdb;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color:#333;
+  outline:none;
+}
+
+.register-form .custom-form .dropdown ul{
+  background:#fff;
+}
+
+.register-form .custom-form .dropdown ul li a{
+  background:#fff;
+  color:#333;
+  opacity:0.8;
+}
+
+.register-form .custom-form .dropdown ul li a:hover{
+  opacity:1;
+}
+
+.register-form .custom-form .submit-button{
+  border-radius:2px;
+  background:#6caee0;
+  color:#ffffff;
+  font-weight:bold;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding:14px 22px;
+  border:0;
+  margin:30px;
+  outline:none;
+}
+#chico {
+	left:10%;
+}
