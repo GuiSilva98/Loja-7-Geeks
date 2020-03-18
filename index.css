@@ -4,7 +4,7 @@ header {
   right: 0;
   left: 0;
   border-bottom: 1px solid #ccc;
-  background:#000;
+  background-image:url("imagens/Outros/banner-cadastro.jpg");
   z-index: 2;
 }
 
@@ -110,7 +110,9 @@ PALAVRAS DO SLIDE DO KRL*/
 .banner .carousel-inner:hover h3{    color: #000;}
 
 /*Rodape do krl*/
-.footer-wrapper{background: #000;}
+.footer-wrapper{background: #000;
+	
+}
 .site-content{padding: 12px 0; overflow: hidden;}
 .site-content .block h1{font-size: 18px; line-height: 20px; color: #fff; text-transform: uppercase; font-family: "Arial"; padding-bottom: 10px;}
 .site-content .block ul{margin: 0; padding: 0;}
@@ -120,7 +122,7 @@ PALAVRAS DO SLIDE DO KRL*/
 .site-content .block .input-group {margin-top: 10px;}
 .site-content .block .input-group-btn .btn{border-radius: 0 20px 20px 0; background: #5E9BF7; color: #fff; font-family: Arial; text-transform: uppercase; border: none; padding: 6px 5px; font-size: 12px; line-height: 23px;}
 .site-content .block .input-group-btn .btn:hover{background: #454855; color: #5E9BF7; transition:all 1s;}
-.input-group .form-control {border-radius: 19px;background: #454855; border: none;}
+.input-group .form-control {border-radius: 19px; background: #fff; border: none;}
 .site-content .block .social li a{text-decoration: none; border-bottom: 0;}
 .site-content .block .social{margin-top: 8px;}
 .social [class^="fw-icon-"]{font-size: 18px; width: 40px; height: 40px; 
@@ -142,7 +144,7 @@ PALAVRAS DO SLIDE DO KRL*/
 	font-family: "Arial", Gadget, sans-serif;
 	font-weight: bold;
 	text-align: center;
-	width: 75%;
+	width: 100%;
 }
 #formcad {
 	color:#575757;
@@ -233,4 +235,115 @@ PALAVRAS DO SLIDE DO KRL*/
 }
 #chico {
 	left:10%;
+}
+#texto {
+	font-size:20px;
+	font-family: Arial, Gadget, sans-serif, Helvetica, sans-serif;
+	text-align:center;
+	text-shadow:#666;
+}
+#texto2 {
+	font-size:20px;
+	font-family: Arial, Gadget, sans-serif, Helvetica, sans-serif;
+	text-align:justify;
+	text-shadow:#666;
+}
+/*login*/
+.login-form form.custom-form{
+  box-sizing:border-box;
+  background-color:#ffffff;
+  box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  font:bold 14px sans-serif;
+  text-align:center;
+  color:#333;
+}
+
+@media (max-width:400px) {
+  .login-form form.custom-form{
+    padding:5px 10px;
+  }
+}
+
+.login-form .custom-form h1{
+	display: inline-block;
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+	border-bottom: 2px solid rgb(108, 174, 224);
+}
+
+.login-form .custom-form .form-group{
+  margin-bottom:25px;
+}
+
+.login-form .custom-form .label-column{
+  text-align:right;
+  color:#5F5F5F;
+}
+
+@media (max-width:768px) {
+  .login-form .custom-form .label-column{
+    text-align:left;
+  }
+}
+
+.login-form .custom-form .input-column{
+  color:#5f5f5f;
+  text-align:right;
+}
+
+.login-form .custom-form .input-column input{
+  color:#5f5f5f;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  border:1px solid #dbdbdb;
+  border-radius:2px;
+  height:42px;
+}
+
+.login-form .custom-form .dropdown .dropdown-toggle{
+  background:#fff;
+  border:1px solid #dbdbdb;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color:#333;
+  outline:none;
+}
+
+.login-form .custom-form .dropdown ul{
+  background:#fff;
+}
+
+.login-form .custom-form .dropdown ul li a{
+  background:#fff;
+  color:#333;
+  opacity:0.8;
+}
+
+.login-form .custom-form .dropdown ul li a:hover{
+  opacity:1;
+}
+
+.login-form .custom-form .submit-button{
+  border-radius:2px;
+  background:#6caee0;
+  color:#ffffff;
+  font-weight:bold;
+  box-shadow:1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding:14px 22px;
+  border:0;
+  margin:5px;
+  margin-bottom:30px;
+  outline:none;
+}
+/*login*/
+.rodape2 {
+margin: auto;
+width: 0%;
+bottom: 0;
+position: fixed;
+}
+#txtpalavra .form-control{
+	border-radius: 19px;
+	 
+	border: none;
+	
 }

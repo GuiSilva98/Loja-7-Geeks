@@ -1,0 +1,136 @@
+﻿ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link href="../index.css" rel="stylesheet" />
+<script type="text/javascript" src="funcoes.js"></script>
+<!-- Ref. Bootstrap -->
+<link href="../bootstrap-social-gh-pages/assets/css/font-awesome.css" rel="Stylesheet" />
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="../bootstrap-social-gh-pages/bootstrap-social.css" />
+<link href="../bootstrap-social-gh-pages/bootstrap-social.less" />
+<link href="../bootstrap/css/bootstrap.css" rel="Stylesheet" />
+<!-- Ref. Bootstrap -->
+<title>Atualizar Dados - 7Geeks</title>
+</head>
+
+<body onunload="window.opener.location.reload();">
+<header>
+<div class="container-fluid" id="topo">
+<div class="row" id="topoitens" align="center">
+<div class="col-md-4 col-md-offset-4" id="Div1"><a><img src="../imagens/logo2.png" class="img-responsive" /></a>
+<br>
+</div>
+
+<div class="col-md-4" id="banner" align="center" style="margin-top:35px">
+<div class="navbar" align="center">
+<form>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+
+</div>
+</div>    </div>
+ 
+</header>
+<!-- CABEÇALHO -->
+<!-- FORMULÁRIO -->
+<div class="container-fluid" style="border: 1px solid #CCC">
+<div class="row register-form">
+        <div class="col-md-8 col-md-offset-2">
+          <form class="form-horizontal custom-form" name="cad" method="post" action="alterardadoscliente.php" id="dados">
+                <h1 id="preto">Alterar Dados</h1>
+                            <br>             <a style="font-size:10px; color:black;"  >Preencha os campos que deseja <span style="color:red;">alterar!</span></a>           <br>   <br>
+							
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label">Nome</label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <input class="form-control" type="text" name="txtnome" id="txtnome" placeholder="Insira seu nome">
+                    </div>
+                </div>
+               <div class="clearfix"></div>
+                
+                     <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label">CPF</label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <input class="form-control" name="txtcpf" id="txtcpf" maxlength="14" placeholder="000.000.000-00">
+                    </div>
+                </div>   
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label">Data de Nascimento</label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <input class="form-control" name="txtdatanasc" id="txtdatanasc" type="date" placeholder="DD/MM/AAAA">
+                    </div>
+                </div>
+                   
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label">Telefone Residencial</label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <input class="form-control" name="txtfonecasa" id="txtfonecasa" maxlength="12"  placeholder="(00) 0000-0000">
+                    </div>
+                </div> 
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label">Celular </label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <input class="form-control" name="txtcelular" maxlength="13"  id="txtcelular" placeholder="(00)00000-0000">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label">Email</label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <input class="form-control" type="email" name="txtemail" id="txtemail" placeholder="Insira seu email">
+                    </div>
+                </div>
+                
+                
+                  
+            <!--<div class="checkbox">
+                    <label>
+                        <input type="checkbox">Eu aceito e concordo com os termos e condicoes.</label>
+                </div>-->
+                <div class="clearfix"></div>
+
+				<br>
+                <button class="btn btn-default submit-button" type="submit" value="Alterar dados" name="botao" id="botao">Atualizar Dados</button>
+            </form>
+        </div> 
+    </div>
+</div>
+<!-- FORMULÁRIO -->
+<!-- jQuery e Js -->
+<script src="../bootstrap/js/jquery.js.js"></script>
+<script src="../jquery.maskedinput.js" type="text/javascript"></script>
+<script src="../bootstrap/js/bootstrap.min.js.js"></script>
+
+    <script type="text/javascript">
+    jQuery(function($){
+        $("#txtcpf").mask("999.999.999-99");
+        $("#txtfonecasa").mask("(99)9999-9999");
+        $("#txtcelular").mask("(99)99999-9999");
+        $("#cep").mask("99999-999");
+    });
+</script>
+<!-- jQuery e Js -->
+
+</body>
+</html>
